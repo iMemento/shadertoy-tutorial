@@ -93,15 +93,11 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/users/1227721/peakcoder',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: '浪浪山外の的硬地骇客',
+                href: 'https://langlangshanwai.com',
               },
             ],
           },
@@ -109,8 +105,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Peakcoder',
+                href:'https://peakcoder.com',
               },
               {
                 label: 'GitHub',
@@ -119,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Shadertoy 中文教程, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

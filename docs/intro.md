@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
+title: 前言
 ---
 
 This page will be the home page when users visit https://example.com/.
