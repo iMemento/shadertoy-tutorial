@@ -2,6 +2,7 @@
   "label": "4. 多个 2D 形状和混合",
   "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "在本文中，我想讨论一种更好的绘制 2D 形状的方法，以便我们可以轻松地将多个形状添加到画布中。我们还将学习如何独立于形状颜色更改背景颜色。"
   }
 }
