@@ -2,6 +2,7 @@
   "label": "3. 正方形和旋转",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "朋友们，您好！在上一篇文章中，我们学习了如何绘制圆并为其制作动画。在本教程中，我们将学习如何使用旋转矩阵绘制正方形并旋转它们。"
   }
 }
