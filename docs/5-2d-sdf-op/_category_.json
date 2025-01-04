@@ -2,6 +2,7 @@
   "label": "5. 2D SDF 操作和更多的形状",
   "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "在本教程中，我将讨论如何使用 2D SDF 操作从基本形状创建更复杂的形状，并将讨论如何绘制更原始的 2D 形状，包括心形和星形。我将帮助您利用这份 2D SDF 列表，该列表由 Shadertoy 的共同创建者之一、才华横溢的 Inigo Quilez 推广。让我们开始吧！"
   }
 }
