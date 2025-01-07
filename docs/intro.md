@@ -6,8 +6,8 @@ title: 1. 介绍
 
 # 写在我们正式开始前
 
-先贴一个我自己写的 [**Shadertoy**](https://www.shadertoy.com/embed/XX3cDr) 是我自己头像的 **Voxel Art Avatar**      
-网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/embed/XX3cDr)，哈哈 :)
+先贴一个我自己写的 [**Shadertoy**](https://www.shadertoy.com/view/XX3cDr) 是我自己头像的 **Voxel Art Avatar**      
+网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/view/XX3cDr)，哈哈 :)
 <div style={{ width: '100%', height: 0, paddingBottom: '56.25%', position: 'relative' }}>
   <iframe 
     src="https://www.shadertoy.com/embed/XX3cDr?gui=true&t=10&paused=false&muted=false" 
