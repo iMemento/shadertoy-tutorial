@@ -115,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Shadertoy 中文教程, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Shadertoy 中文教程, PeakCocer Inc.`,
       },
       prism: {
         theme: prismThemes.github,
