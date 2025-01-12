@@ -55,7 +55,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
   fragColor = vec4(col,1.0); // Output to screen
 }
 ```
-请注意我现在是如何使用 **sdCircle** 而不是 **sdfCircle**（在前面的教程中使用）作为函数名称的。**Inigo Quilez** 的网站通常在形状名称前面使用 **sd**，但我使用 **sdf** 来帮助清楚地表明这些是**有符号距离字段 （SDF）**。
+请注意我现在是如何使用 `sdCircle` 而不是 `sdfCircle`（在前面的教程中使用）作为函数名称的。`Inigo Quilez` 的网站通常在形状名称前面使用 `sd`，但我使用 `sdf` 来帮助清楚地表明这些是**有符号距离字段 （SDF）**。
 
 当您运行代码时，您应该会看到一个带有渐变背景色的红色圆圈，类似于我们在上一个教程中学到的内容。
 <p align="center">![-](./img/img-1.png)</p>

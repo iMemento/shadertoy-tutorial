@@ -47,7 +47,7 @@ Therefore, the slope is equal to one.
 
 看起来像字母“e”的卷曲符号是希腊字母 epsilon。它将表示球体表面某个点旁边的一个微小值。
 
-在 GLSL 中，我们将创建一个名为 **calcNormal** 的函数，该函数接收我们从 rayMarch 函数返回的样本点。
+在 GLSL 中，我们将创建一个名为 `calcNormal` 的函数，该函数接收我们从 rayMarch 函数返回的样本点。
 
 ```cpp
 vec3 calcNormal(vec3 p) {

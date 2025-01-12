@@ -94,7 +94,7 @@ float sdSphere(vec3 p, float r)
 }
 ```
 
-然后，我们将按 **sdSphere** 函数返回的距离值来增加深度。如果距离与球体的距离在 0.001 个单位以内，那么我们认为它离球体足够近。这表示精度。如果要使该值更准确，可以降低该值。
+然后，我们将按 `sdSphere` 函数返回的距离值来增加深度。如果距离与球体的距离在 0.001 个单位以内，那么我们认为它离球体足够近。这表示精度。如果要使该值更准确，可以降低该值。
 
 如果距离大于某个阈值（在本例中为 100），则光线走得太远，我们应该停止光线行进循环。我们不希望光线继续到无穷大，因为这会浪费计算资源，如果光线没有击中任何东西，就会使 for 循环永远运行。
 
@@ -150,7 +150,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 }
 ```
 
-我们似乎在重用一些数字，所以让我们设置一些常量全局变量。在 **GLSL** 中，我们可以使用 **const** 关键字告诉编译器我们不打算更改这些变量：
+我们似乎在重用一些数字，所以让我们设置一些常量全局变量。在 `GLSL` 中，我们可以使用 `const` 关键字告诉编译器我们不打算更改这些变量：
 
 ```cpp
 const int MAX_MARCHING_STEPS = 255;
@@ -158,7 +158,7 @@ const float MIN_DIST = 0.0;
 const float MAX_DIST = 100.0;
 const float PRECISION = 0.001;
 ```
-或者，我们也可以使用 [**preprocessor 指令**](https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)#Preprocessor_directives)。您可能会看到人们在定义常量时使用 #define 等预处理器指令。使用 #define 的一个优点是，您可以使用 #ifdef 来检查变量是否在稍后的代码中定义。**#define** 和 **const** 之间存在[**差异**](https://stackoverflow.com/questions/6442328/what-is-the-difference-between-define-and-const)，因此请选择你喜欢的 **const** 以及最适合你的方案的 **const**。
+或者，我们也可以使用 [**preprocessor 指令**](https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)#Preprocessor_directives)。您可能会看到人们在定义常量时使用 #define 等预处理器指令。使用 #define 的一个优点是，您可以使用 #ifdef 来检查变量是否在稍后的代码中定义。**#define` 和 `const** 之间存在[**差异**](https://stackoverflow.com/questions/6442328/what-is-the-difference-between-define-and-const)，因此请选择你喜欢的 **const** 以及最适合你的方案的 **const**。
 
 如果我们重写常量变量以使用 #define 预处理器指令，则我们将得到以下内容：
 

@@ -45,13 +45,13 @@ title: 1. 介绍
 
 <p align="center">![-](./img/img-2.png)</p>
 
-在 **Unity** 或 **Unreal** 等游戏引擎中，顶点着色器和片段着色器大量用于 3D 游戏。Unity 在着色器之上提供了一个称为 ShaderLab 的抽象，这是一种位于 HLSL 之上的语言，可帮助你更轻松地为游戏编写着色器。此外，Unity 还提供了一个名为 **Shader Graph** 的可视化工具，让你无需编写代码即可构建着色器。如果你在 Google 上搜索“Unity 着色器”，你会发现数百个执行许多不同功能的着色器。你可以创建着色器，使对象发光，使角色变得半透明，甚至创建将着色器应用于游戏整个视图的“图像效果”。可以使用着色器的方式有无数种。
+在 `Unity` 或 `Unreal` 等游戏引擎中，顶点着色器和片段着色器大量用于 3D 游戏。Unity 在着色器之上提供了一个称为 ShaderLab 的抽象，这是一种位于 HLSL 之上的语言，可帮助你更轻松地为游戏编写着色器。此外，Unity 还提供了一个名为 **Shader Graph** 的可视化工具，让你无需编写代码即可构建着色器。如果你在 Google 上搜索“Unity 着色器”，你会发现数百个执行许多不同功能的着色器。你可以创建着色器，使对象发光，使角色变得半透明，甚至创建将着色器应用于游戏整个视图的“图像效果”。可以使用着色器的方式有无数种。
 
 
 你可能经常听到片段着色器被称为**像素着色器（pixel shaders）**。大多情况下术语“**片段着色器（ragment shader）**”更准确。而在某些应用程序（如 Shadertoy）中，需要将每个像素绘制到屏幕上，因此在该上下文中称它们为像素着色器貌似更有道理。
 
 
-着色器还负责渲染游戏中的着色和光照，但它们的用途远不止于此。着色器程序可以在 GPU 上运行，那么为什么不利用它提供的并行化呢？你可以创建一个**计算着色器（compute shader）**，在 GPU 而不是 CPU 中运行大量计算。事实上，**Tensorflow.js** 利用 GPU 在浏览器中更快地训练机器学习模型。
+着色器还负责渲染游戏中的着色和光照，但它们的用途远不止于此。着色器程序可以在 GPU 上运行，那么为什么不利用它提供的并行化呢？你可以创建一个**计算着色器（compute shader）**，在 GPU 而不是 CPU 中运行大量计算。事实上，`Tensorflow.js` 利用 GPU 在浏览器中更快地训练机器学习模型。
 
 
 ## 什么是 Shadertoy？
@@ -63,7 +63,7 @@ title: 1. 介绍
 
 :::
 
-Shadertoy 利用 **WebGL API** 使用 GPU 在浏览器中渲染图形。WebGL 允许你在 GLSL 中编写着色器并支持硬件加速。也就是说，你可以利用 GPU 并行处理屏幕上的像素，以加快渲染速度。还记得在使用 **HTML Canvas API** 时必须使用 ctx.getContext（'2d'） 吗？Shadertoy 使用具有 webgl 上下文的画布而不是 2d，因此可以使用 WebGL 以更高的性能将像素绘制到屏幕上。
+Shadertoy 利用 `WebGL API` 使用 GPU 在浏览器中渲染图形。WebGL 允许你在 GLSL 中编写着色器并支持硬件加速。也就是说，你可以利用 GPU 并行处理屏幕上的像素，以加快渲染速度。还记得在使用 `HTML Canvas API` 时必须使用 ctx.getContext（'2d'） 吗？Shadertoy 使用具有 webgl 上下文的画布而不是 2d，因此可以使用 WebGL 以更高的性能将像素绘制到屏幕上。
 :::warning warning
 
 尽管 Shadertoy 使用 GPU 来帮助提高渲染性能，但在打开执行大量计算的某人的 Shadertoy 着色器时，你的计算机速度可能会稍慢。请确保你计算机的 GPU 可以处理它，并了解它可能会很快耗尽设备的电池。
@@ -81,7 +81,7 @@ Shadertoy 是练习使用 GLSL 创建着色器的好方法，可帮助你更数�
 ## Shadertoy 简介
 Shadertoy 负责设置支持 WebGL 的 HTML 画布，因此你只需担心使用 GLSL 编程语言编写着色器逻辑即可。缺点是，**Shadertoy 不允许你编写顶点着色器，而只允许你编写像素着色器**。它实质上提供了一个环境，用于试验着色器的片段端，因此你可以并行操作画布上的所有像素。
 
-在 Shadertoy 的顶部导航栏上，你可以单击 **New** 以启动新的着色器。
+在 Shadertoy 的顶部导航栏上，你可以单击 `New` 以启动新的着色器。
 
 <p align="center">![-](./img/img-3.png)</p>
 
@@ -120,7 +120,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
 在上面的代码片段中，我们定义了一个 mainImage 函数，该函数必须存在于 Shadertoy 着色器中。它不返回任何内容，因此返回类型为 void。它接受两个参数：fragColor 和 fragCoord。
 
-你可能会对**in** 和 **out** 关键字迷惑。对于 Shadertoy，你通常只需在 mainImage 函数中考虑这些关键字。还记得我说过着色器允许我们为 GPU 渲染管道编写程序吗？将 in 和 out 视为输入和输出。Shadertoy 为我们提供了一个输入，我们将写入一个颜色作为输出。
+你可能会对`in` 和 `out` 关键字迷惑。对于 Shadertoy，你通常只需在 mainImage 函数中考虑这些关键字。还记得我说过着色器允许我们为 GPU 渲染管道编写程序吗？将 in 和 out 视为输入和输出。Shadertoy 为我们提供了一个输入，我们将写入一个颜色作为输出。
 
 在继续之前，让我们将代码更改为更简单的代码：
 ```cpp title="glsl"

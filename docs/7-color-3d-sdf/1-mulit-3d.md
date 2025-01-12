@@ -6,7 +6,7 @@ sidebar_position: 1
 
 在上一个教程中，我们学习了如何使用 Shadertoy 绘制球体，但我们的场景仅设置为处理绘制一个形状。
 
-让我们重新构建代码，以便名为 **sdScene** 的函数负责返回场景中最近的形状。
+让我们重新构建代码，以便名为 `sdScene` 的函数负责返回场景中最近的形状。
 
 ```cpp
 const int MAX_MARCHING_STEPS = 255;
@@ -80,7 +80,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 }
 ```
 
-请注意 **sdSphere** 的每个实例都已替换为 **sdScene**。如果我们想向场景中添加更多对象，我们可以使用 **min 函数**来获取场景中最近的对象。
+请注意 `sdSphere` 的每个实例都已替换为 `sdScene`。如果我们想向场景中添加更多对象，我们可以使用 **min 函数**来获取场景中最近的对象。
 
 ```cpp
 float sdScene(vec3 p) {

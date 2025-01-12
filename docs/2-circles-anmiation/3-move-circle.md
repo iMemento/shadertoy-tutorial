@@ -45,7 +45,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 }
 ```
 <p align="center">![-](./img/img-8.png)</p>
-你可以再次在某些位置使用全局 **iTime** 变量，为你的画布赋予生命并为你的圆圈添加动画。
+你可以再次在某些位置使用全局 `iTime` 变量，为你的画布赋予生命并为你的圆圈添加动画。
 ```cpp
 vec3 sdfCircle(vec2 uv, float r, vec2 offset) {
   float x = uv.x - offset.x;
@@ -70,6 +70,6 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
   fragColor = vec4(col,1.0);
 }
 ```
-上面的代码将沿顺时针方向的圆形路径移动圆，就像它绕原点旋转一样。通过将 **iTime** 乘以一个值，可以加快动画制作速度。通过将正弦或余弦函数的输出乘以一个值，可以控制圆从画布中心移动的距离。你将在 **iTime** 中大量使用正弦和余弦函数，因为它们会产生振荡。
+上面的代码将沿顺时针方向的圆形路径移动圆，就像它绕原点旋转一样。通过将 `iTime` 乘以一个值，可以加快动画制作速度。通过将正弦或余弦函数的输出乘以一个值，可以控制圆从画布中心移动的距离。你将在 **iTime** 中大量使用正弦和余弦函数，因为它们会产生振荡。
 
 <p align="center">![-](./img/gif-2.gif)</p>

@@ -27,7 +27,7 @@ float sdStar5(in vec2 p, in float r, in float rf)
 }
 ```
 
-不用担心函数中的 **in** 限定符。如果需要，您可以删除它们，因为如果未指定任何条件，则 **in** 是默认限定符。
+不用担心函数中的 `in` 限定符。如果需要，您可以删除它们，因为如果未指定任何条件，则 `in` 是默认限定符。
 
 让我们使用以下代码创建一个新的 Shadertoy 着色器：
 
@@ -276,7 +276,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
 <p align="center">![-](./img/img-21.png)</p>
 
-您还可以使用 **smoothstep** 函数使线段在边缘周围看起来模糊。
+您还可以使用 `smoothstep` 函数使线段在边缘周围看起来模糊。
 
 ```cpp
 float sdSegment( in vec2 p, in vec2 a, in vec2 b )
