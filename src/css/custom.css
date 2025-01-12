@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 修改 Footer 背景颜色 */
+.footer {
+  background-color: #222; /* 深灰色背景 */
+  color: #fff;           /* 白色文字 */
+}
+
+/* 修改 Footer 中的链接样式 */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #4fddbf;
+}
+
+/* 调整 Footer 版权字体大小 */
+.footer__copyright {
+  font-size: 14px;
+  margin-top: 20px;
+}
