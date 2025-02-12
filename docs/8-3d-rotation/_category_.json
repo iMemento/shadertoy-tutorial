@@ -2,6 +2,7 @@
   "label": "8. 3D 旋转",
   "position": 8,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description":"朋友们，您好！欢迎来到我的 Shadertoy 教程系列的第 8 部分。在本教程中，我们将学习如何使用转换矩阵旋转 3D 对象。"
   }
 }
