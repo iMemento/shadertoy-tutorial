@@ -2,6 +2,7 @@
   "label": "9. 摄像机移动",
   "position": 9,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description":"欢迎来到我的 Shadertoy 教程系列的第 9 部分。在本教程中，我们将学习如何在场景中移动摄像机。"
   }
 }
