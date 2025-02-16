@@ -2,6 +2,7 @@
   "label": "13. 阴影",
   "position": 13,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description":"朋友们，您好！欢迎来到我的 Shadertoy 教程系列的第 13 部分。在本教程中，我们将学习如何向 3D 场景添加阴影。"
   }
 }
