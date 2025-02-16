@@ -2,6 +2,7 @@
   "label": "14. 3D SDF 操作",
   "position": 14,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description":"朋友们，您好！欢迎来到我的 Shadertoy 教程系列的第 14 部分！你有没有想过人们是如何在 Shadertoy 中绘制复杂的形状和场景的？我们学习了如何制作球体和立方体，但是更复杂的对象呢？在本教程中，我们将学习如何使用由 Shadertoy 的共同创建者之一才华横溢的 Inigo Quilez 推广的 SDF 操作！"
   }
 }
