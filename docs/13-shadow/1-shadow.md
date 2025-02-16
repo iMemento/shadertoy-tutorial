@@ -407,7 +407,7 @@ float softShadow(vec3 ro, vec3 rd, float mint, float tmax) {
 ```
 我们可以将阴影限制在 `0.1` 和 `1.0` 之间，以使阴影变亮一点，这样阴影就不会太暗。
 
-<p align="center">![-](./img/img-7.png)</p>
+<p align="center">![-](./img/img-8.png)</p>
 
 注意柔和阴影的边缘。这是阴影和正常地板颜色之间的更平滑过渡。
 
@@ -420,7 +420,7 @@ float dif = clamp(dot(normal, lightDirection), 0., 1.) + 0.5; // diffuse reflect
 
 当您运行代码时，您会看到球体看起来更亮一些，但远处的地板背面看起来有点奇怪。
 
-<p align="center">![-](./img/img-8.png)</p>
+<p align="center">![-](./img/img-9.png)</p>
 
 您可能经常看到人们通过应用**雾**来隐藏背景的任何不规则性。让我们在 `Gamma 校正`之前应用雾。
 
@@ -430,7 +430,7 @@ col = mix(col, backgroundColor, 1.0 - exp(-0.0002 * co.sd * co.sd * co.sd)); // 
 
 现在，场景看起来更逼真了！
 
-<p align="center">![-](./img/img-9.png)</p>
+<p align="center">![-](./img/img-10.png)</p>
 
 您可以在下面找到完成的代码：
 
