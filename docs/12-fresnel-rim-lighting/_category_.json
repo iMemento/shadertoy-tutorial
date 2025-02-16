@@ -2,6 +2,7 @@
   "label": "12. 菲涅尔和边缘照明",
   "position": 12,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description":"朋友们，您好！欢迎来到我的 Shadertoy 教程系列的第 12 部分。在本教程中，我们将学习如何使用菲涅耳反射在球体周围添加边缘照明。"
   }
 }
