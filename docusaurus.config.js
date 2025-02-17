@@ -31,9 +31,14 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
+ i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
+    localeConfigs: {
+      'zh-Hans': {
+        path: 'zh-Hans', // 强制所有 URL 包含语言前缀（如 /zh-Hans/docs/intro）
+      },
+    },
   },
 
   presets: [
