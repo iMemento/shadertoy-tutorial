@@ -8,13 +8,8 @@
 先贴一个我自己写的 [**Shadertoy**](https://www.shadertoy.com/view/XX3cDr) 是我自己头像的 **Voxel Art Avatar**      
 Shadertoy 网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/view/XX3cDr) :)
 
-<div style="position: relative; width: 100%; padding-top: 56.25%;"> <!-- 16:9比例 -->
-  <iframe src="https://www.shadertoy.com/embed/XX3cDr?gui=true&t=10&paused=false&muted=false" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
-</div>
 
-
-
-另外，教程的代码仓库地址：[**github.com/iMemento/shadertoy-tutorial**](https://github.com/iMemento/shadertoy-tutorial) 如果能给个 star ✨ 我会感激不尽。
+另外，如果能给个 star ✨ 我会感激不尽。
 
 希望你看完本教程，能有所收获。
 
