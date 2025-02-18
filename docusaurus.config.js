@@ -92,7 +92,7 @@ const config = {
                 to: 'https://shadertoy.peakcoder.com/',
               },
               {
-                label: 'Email:zaijing@alu.hit.edu.cn',
+                label: 'Email: zaijing@alu.hit.edu.cn',
                 to: 'mailto:zaijing@alu.hit.edu.cn',
               },
             ],
