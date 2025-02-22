@@ -143,25 +143,26 @@ const config = {
         theme: 'preferred_color_scheme', // 或 'preferred_color_scheme' 以适配 Docusaurus 主题
         lang: 'zh-CN',
       },
-      scripts: [
-        {
-          src: 'https://giscus.app/client.js',
-          async: true,
-          crossorigin: 'anonymous',
-          'data-repo': 'iMemento/shadertoy-tutorial',
-          'data-repo-id': 'R_kgDON6rfNQ',
-          'data-category': 'Announcements',
-          'data-category-id': 'DIC_kwDON6rfNc4CnNqo',
-          'data-mapping': 'pathname',
-          'data-strict': '0',
-          'data-reactions-enabled': '1',
-          'data-emit-metadata': '0',
-          'data-input-position': 'bottom',
-          'data-theme': 'preferred_color_scheme',
-          'data-lang': 'zh-CN',
-        },
-      ],
     }),
+
+    scripts: [
+      {
+        src: 'https://giscus.app/client.js',
+        async: true,
+        crossorigin: 'anonymous',
+        'data-repo': 'iMemento/shadertoy-tutorial',
+        'data-repo-id': 'R_kgDON6rfNQ',
+        'data-category': 'Announcements',
+        'data-category-id': 'DIC_kwDON6rfNc4CnNqo',
+        'data-mapping': 'pathname',
+        'data-strict': '0',
+        'data-reactions-enabled': '1',
+        'data-emit-metadata': '0',
+        'data-input-position': 'bottom',
+        'data-theme': 'preferred_color_scheme',
+        'data-lang': 'zh-CN',
+      },
+    ],
 };
 
 export default config;
