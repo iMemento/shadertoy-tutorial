@@ -141,7 +141,7 @@ const config = {
         emitMetadata: '0',
         inputPosition: 'bottom',
         theme: 'preferred_color_scheme', // 或 'preferred_color_scheme' 以适配 Docusaurus 主题
-        lang: 'zh-CN',
+        lang: 'en',
       },
     }),
 
@@ -160,7 +160,7 @@ const config = {
         'data-emit-metadata': '0',
         'data-input-position': 'bottom',
         'data-theme': 'preferred_color_scheme',
-        'data-lang': 'zh-CN',
+        'data-lang': 'en',
       },
     ],
 };
