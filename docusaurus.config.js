@@ -130,6 +130,37 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      giscus: {
+        repo: 'iMemento/shadertoy-tutorial',
+        repoId: 'R_kgDON6rfNQ',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDON6rfNc4CnNqo',
+        mapping: 'pathname',
+        strict: '0',
+        reactionsEnabled: '1',
+        emitMetadata: '0',
+        inputPosition: 'bottom',
+        theme: 'preferred_color_scheme', // 或 'preferred_color_scheme' 以适配 Docusaurus 主题
+        lang: 'zh-CN',
+      },
+      scripts: [
+        {
+          src: 'https://giscus.app/client.js',
+          async: true,
+          crossorigin: 'anonymous',
+          'data-repo': 'iMemento/shadertoy-tutorial',
+          'data-repo-id': 'R_kgDON6rfNQ',
+          'data-category': 'Announcements',
+          'data-category-id': 'DIC_kwDON6rfNc4CnNqo',
+          'data-mapping': 'pathname',
+          'data-strict': '0',
+          'data-reactions-enabled': '1',
+          'data-emit-metadata': '0',
+          'data-input-position': 'bottom',
+          'data-theme': 'preferred_color_scheme',
+          'data-lang': 'zh-CN',
+        },
+      ],
     }),
 };
 
