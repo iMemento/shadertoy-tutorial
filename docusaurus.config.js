@@ -140,29 +140,31 @@ const config = {
         reactionsEnabled: '1',
         emitMetadata: '0',
         inputPosition: 'bottom',
-        theme: 'preferred_color_scheme', // 或 'preferred_color_scheme' 以适配 Docusaurus 主题
+        theme: "dark_dimmed",       // 强制默认主题
+        darkTheme: "dark_dimmed",
+        lightTheme: "github_light",
         lang: 'en',
       },
     }),
 
-    scripts: [
-      {
-        src: 'https://giscus.app/client.js',
-        async: true,
-        crossorigin: 'anonymous',
-        'data-repo': 'iMemento/shadertoy-tutorial',
-        'data-repo-id': 'R_kgDON6rfNQ',
-        'data-category': 'General',
-        'data-category-id': 'DIC_kwDON6rfNc4CnNqp',
-        'data-mapping': 'title',
-        'data-strict': '0',
-        'data-reactions-enabled': '1',
-        'data-emit-metadata': '0',
-        'data-input-position': 'bottom',
-        'data-theme': 'preferred_color_scheme',
-        'data-lang': 'en',
-      },
-    ],
+    // scripts: [
+    //   {
+    //     src: 'https://giscus.app/client.js',
+    //     async: true,
+    //     crossorigin: 'anonymous',
+    //     'data-repo': 'iMemento/shadertoy-tutorial',
+    //     'data-repo-id': 'R_kgDON6rfNQ',
+    //     'data-category': 'General',
+    //     'data-category-id': 'DIC_kwDON6rfNc4CnNqp',
+    //     'data-mapping': 'title',
+    //     'data-strict': '0',
+    //     'data-reactions-enabled': '1',
+    //     'data-emit-metadata': '0',
+    //     'data-input-position': 'bottom',
+    //     'data-theme': 'preferred_color_scheme',
+    //     'data-lang': 'en',
+    //   },
+    // ],
 };
 
 export default config;
