@@ -133,8 +133,8 @@ const config = {
       giscus: {
         repo: 'iMemento/shadertoy-tutorial',
         repoId: 'R_kgDON6rfNQ',
-        category: 'General',
-        categoryId: 'DIC_kwDON6rfNc4CnNqp',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDON6rfNc4CnNqo',
         mapping: 'title',
         strict: '0',
         reactionsEnabled: '1',
