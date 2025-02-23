@@ -2,6 +2,7 @@
 sidebar_position: 1
 slug: /
 title: 1. 介绍
+comments: true
 ---
 
 # 写在我们正式开始前
