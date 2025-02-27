@@ -4,7 +4,7 @@
 
 我大概花了三周，翻译整理了作者 [Nathan Vaughn](https://inspirnathan.com/about) 在他的博客上的 [Shadertoy 英文教程](https://inspirnathan.com/posts/47-shadertoy-tutorial-part-1)，有兴趣的可以去观摩学习英文原版。
 
-我翻译的中文教程，用 **docusaurus** 托管在 **netlify**     
+我翻译的中文教程，用 [**docusaurus**](https://github.com/facebook/docusaurus) 托管在 [**netlify**](https://app.netlify.com/)     
 
 先贴一个我自己写的 [**Shadertoy**](https://www.shadertoy.com/view/XX3cDr) 是我自己头像的 **Voxel Art Avatar**      
 Shadertoy 网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/view/XX3cDr) :)
