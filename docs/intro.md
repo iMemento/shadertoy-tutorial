@@ -11,7 +11,7 @@ comments: true
 网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/view/XX3cDr) :)
 <p align="center">
 <a href="https://www.shadertoy.com/view/XX3cDr" target="_blank">
-  <img src="./img/shadertoy-preview.png" alt="Shader Preview" style="width:100%; border:0;">
+  <img src="./img/shadertoy-preview.png" alt="Shader Preview" style="width:100%; border:0;"/>
 </a>
 </p>
 
