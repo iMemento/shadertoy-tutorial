@@ -8,16 +8,10 @@ comments: true
 # 写在我们正式开始前
 
 先贴一个我自己写的 [**Shadertoy**](https://www.shadertoy.com/view/XX3cDr) 是我自己头像的 **Voxel Art Avatar**      
-网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/view/XX3cDr)，哈哈 :)
-<div style={{ width: '100%', height: 0, paddingBottom: '56.25%', position: 'relative' }}>
-  <iframe 
-    src="https://www.shadertoy.com/embed/XX3cDr?gui=true&t=10&paused=false&muted=false" 
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: '1px solid #ccc' }}
-    frameBorder="1" 
-    allowFullScreen
-    title="Shadertoy Frame"
-  />
-</div>
+网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/view/XX3cDr) :)
+<a href="https://www.shadertoy.com/view/XX3cDr" target="_blank">
+  <img src="./img/shadertoy-preview.png" alt="Shader Preview" style="width:100%; border:0;">
+</a>
 
 ##### 注：本教程翻译自 [**Nathan Vaughn**](https://inspirnathan.com/about) 博客上的 [**Shadertoy 英文教程**](https://inspirnathan.com/posts/47-shadertoy-tutorial-part-1)，有兴趣的可以去观摩学习英文原版。
  
