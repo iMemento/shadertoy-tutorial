@@ -10,7 +10,7 @@
 Shadertoy 网站至少你应该注册过了吧，Emmm..可以去给我[**点个赞**](https://www.shadertoy.com/view/XX3cDr) :)
 
 
-另外，如果能给个 star ✨ 我会感激不尽。
+另外，如果能给个 Star ✨ 我会感激不尽。
 
 希望你看完本教程，能有所收获。
 
