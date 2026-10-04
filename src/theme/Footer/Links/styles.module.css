@@ -1,0 +1,74 @@
+.apps {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1.25rem;
+  color: var(--ifm-footer-title-color);
+  font-size: 1rem;
+}
+
+.appList {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1.25rem 1rem;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.appLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  height: 100%;
+  padding: 0.375rem;
+  border-radius: 0.75rem;
+}
+
+.appLink:focus-visible {
+  outline: 2px solid #4fddbf;
+  outline-offset: 3px;
+}
+
+.icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border-radius: 13px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 160ms ease;
+}
+
+.appLink:hover .icon,
+.appLink:focus-visible .icon {
+  transform: translateY(-3px);
+}
+
+.appName {
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .appList {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 380px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon {
+    transition: none;
+  }
+
+  .appLink:hover .icon,
+  .appLink:focus-visible .icon {
+    transform: none;
+  }
+}
